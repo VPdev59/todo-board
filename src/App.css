@@ -1,0 +1,42 @@
+.app {
+  text-align: center;
+  display: grid;
+}
+h5 {
+  display: table-caption;
+}
+.Open,
+.Inprogress,
+.Completed {
+  display: inline-table;
+  width: 200px;
+  height: auto;
+  min-height: 500px;
+  margin: 10px;
+  padding: 0 10px 50px 10px;
+  border: 1px solid black;
+}
+
+.item {
+  margin: 4px;
+  background-color: hsl(30, 8%, 75%);
+  border: 1px slategray solid;
+}
+.Inprogress .item {
+  background-color: antiquewhite;
+}
+.Completed .item {
+  background-color: rgb(63, 247, 7);
+}
+.error {
+  padding: 10px;
+  margin: 10px;
+  color: #333;
+  background: #fafafa;
+  border: 1px solid #ccc;
+}
+.error-view {
+  color: #ba3939;
+  background: #ffe0e0;
+  border: 1px solid #a33a3a;
+}
